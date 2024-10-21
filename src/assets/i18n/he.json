@@ -1,0 +1,59 @@
+{
+    "HOME": "דף הבית",
+    "SERVICES": "שירותים",
+    "ABOUT": "אודות",
+    "CONTACT": "צור קשר",
+    "TITLE": "שירותי ייעוץ חשבונאות מקצועיים",
+    "DESCRIPTION": "אנו עוזרים לעסקים ואנשים פרטיים לנהל את כספם עם פתרונות חשבונאות מקצועיים.",
+    "GET_STARTED": "התחל עכשיו",
+    "SERVICES_TITLE": "השירותים שלנו",
+    "FEATURE_FINANCIAL_CONSULTATION": "ייעוץ פיננסי",
+    "FEATURE_FINANCIAL_CONSULTATION_DESC": "ייעוץ מומחה לניהול הכספים האישיים או העסקיים שלך בצורה יעילה.",
+    "FEATURE_TAX_PLANNING": "תכנון מס",
+    "FEATURE_TAX_PLANNING_DESC": "הפחת את חבויות המס שלך באמצעות תכנון מס אסטרטגי והגשה.",
+    "FEATURE_BOOKKEEPING": "שירותי הנהלת חשבונות",
+    "FEATURE_BOOKKEEPING_DESC": "הנהלת חשבונות מדויקת שתשמור על עדכון הרשומות הכספיות שלך.",
+    "CTA_TITLE": "מוכן לפשט את הכספים שלך?",
+    "CONTACT_US": "צור קשר היום",
+    "FOOTER_COPYRIGHT": "כל הזכויות שמורות",
+    "SIGNUP":{
+      "SIGN_UP": "הרשמה",
+      "EMAIL": "אימייל",
+      "EMAIL_REQUIRED": "נדרש אימייל",
+      "EMAIL_INVALID": "כתובת אימייל לא תקינה",
+      "PASSWORD": "סיסמה",
+      "PASSWORD_REQUIRED": "נדרשת סיסמה",
+      "PASSWORD_MIN_LENGTH": "הסיסמה חייבת להכיל לפחות 6 תווים",
+      "CONFIRM_PASSWORD": "אשר סיסמה",
+      "CONFIRM_PASSWORD_REQUIRED": "אישור סיסמה נדרש",
+      "CONFIRM_PASSWORD_PLACEHOLDER": "הזן שוב את הסיסמה",
+      "PASSWORDS_DO_NOT_MATCH": "הסיסמאות אינן תואמות",
+      "NAME": "שם",
+      "NAME_REQUIRED": "נדרש שם",
+      "SURNAME": "שם משפחה",
+      "SURNAME_REQUIRED": "נדרש שם משפחה",
+      "TELEPHONE": "טלפון",
+      "TELEPHONE_REQUIRED": "נדרש מספר טלפון",
+      "TELEPHONE_INVALID": "מספר טלפון לא תקין",
+      "ENTER_EMAIL": "הכנס את האימייל שלך",
+      "ENTER_PASSWORD": "הכנס את הסיסמה שלך",
+      "ENTER_NAME": "הכנס את שמך",
+      "ENTER_SURNAME": "הכנס את שם המשפחה שלך",
+      "ENTER_TELEPHONE": "הכנס את מספר הטלפון שלך"
+    },
+    "LOGIN": {
+      "SIGNUP": "הירשם",
+      "SIGNUPNOW": "הירשם עכשיו",
+      "TITLE": "התחברות",
+      "EMAIL": "אימייל",
+      "PASSWORD": "סיסמה",
+      "SUBMIT": "שלח",
+      "FORGOT_PASSWORD": "שכחת סיסמה?",
+      "FAILURE": "נסה שנית",
+      "LOGOUT": "יציאה"
+
+
+
+    }
+  }
+  

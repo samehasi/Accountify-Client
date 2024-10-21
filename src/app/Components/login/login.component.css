@@ -1,0 +1,31 @@
+.login-card {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .lang-switcher {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* sign-in.component.scss */
+.error-message {
+  margin-top: 10px;
+  color: red;
+}

@@ -1,0 +1,79 @@
+<mat-card class="sign-up-card">
+    <mat-card-header>
+      <mat-card-title>{{ 'SIGNUP.SIGN_UP' | translate }}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+  
+        <!-- Email -->
+        <mat-form-field appearance="fill">
+          <mat-label>{{ 'SIGNUP.EMAIL' | translate }}</mat-label>
+          <input matInput type="email" formControlName="email" placeholder="{{ 'SIGNUP.ENTER_EMAIL' | translate }}" required>
+          <!-- <mat-error *ngIf="f.email.invalid && f.email.touched">
+            <span *ngIf="f.email.errors?.required">{{ 'SIGNUP.EMAIL_REQUIRED' | translate }}</span>
+            <span *ngIf="f.email.errors?.email">{{ 'SIGNUP.EMAIL_INVALID' | translate }}</span>
+          </mat-error> -->
+        </mat-form-field>
+  
+        <!-- Password -->
+        <mat-form-field appearance="fill">
+          <mat-label>{{ 'SIGNUP.PASSWORD' | translate }}</mat-label>
+          <input matInput type="password" formControlName="password" placeholder="{{ 'SIGNUP.ENTER_PASSWORD' | translate }}" required>
+          <!-- <mat-error *ngIf="f.password.invalid && f.password.touched">
+            <span *ngIf="f.password.errors?.required">{{ 'SIGNUP.PASSWORD_REQUIRED' | translate }}</span>
+            <span *ngIf="f.password.errors?.minlength">{{ 'SIGNUP.PASSWORD_MIN_LENGTH' | translate }}</span>
+          </mat-error> -->
+        </mat-form-field>
+  
+        <!-- Confirm Password -->
+        <mat-form-field appearance="fill">
+          <mat-label>{{ 'SIGNUP.CONFIRM_PASSWORD' | translate }}</mat-label>
+          <input matInput type="password" formControlName="confirmPassword" placeholder="{{ 'SIGNUP.CONFIRM_PASSWORD_PLACEHOLDER' | translate }}" required>
+          <!-- <mat-error *ngIf="f.confirmPassword.invalid && f.confirmPassword.touched">
+            <span *ngIf="f.confirmPassword.errors?.required">{{ 'SIGNUP.CONFIRM_PASSWORD_REQUIRED' | translate }}</span>
+            <span *ngIf="f.confirmPassword.errors?.passwordMismatch">{{ 'SIGNUP.PASSWORDS_DO_NOT_MATCH' | translate }}</span>
+          </mat-error> -->
+        </mat-form-field>
+  
+        <!-- Name -->
+        <mat-form-field appearance="fill">
+          <mat-label>{{ 'SIGNUP.NAME' | translate }}</mat-label>
+          <input matInput formControlName="name" placeholder="{{ 'SIGNUP.ENTER_NAME' | translate }}" required>
+          <!-- <mat-error *ngIf="f.name.invalid && f.name.touched">
+            {{ 'SIGNUP.NAME_REQUIRED' | translate
+        </mat-error> -->
+    </mat-form-field>
+
+    <!-- Surname -->
+    <mat-form-field appearance="fill">
+      <mat-label>{{ 'SIGNUP.SURNAME' | translate }}</mat-label>
+      <input matInput formControlName="surname" placeholder="{{ 'SIGNUP.ENTER_SURNAME' | translate }}" required>
+      <!-- <mat-error *ngIf="f.surname.invalid && f.surname.touched">
+        {{ 'SIGNUP.SURNAME_REQUIRED' | translate }}
+      </mat-error> -->
+    </mat-form-field>
+
+    <!-- Telephone -->
+    <mat-form-field appearance="fill">
+      <mat-label>{{ 'SIGNUP.TELEPHONE' | translate }}</mat-label>
+      <input matInput formControlName="telephone" placeholder="{{ 'SIGNUP.ENTER_TELEPHONE' | translate }}" required>
+      <!-- <mat-error *ngIf="f.telephone.invalid && f.telephone.touched">
+        <span *ngIf="f.telephone.errors?.required">{{ 'TELEPHONE_REQUIRED' | translate }}</span>
+        <span *ngIf="f.telephone.errors?.pattern">{{ 'TELEPHONE_INVALID' | translate }}</span>
+      </mat-error> -->
+    </mat-form-field>
+
+    <!-- Submit Button -->
+    <button mat-raised-button color="primary" type="submit" [disabled]="signUpForm.invalid">
+      {{ 'SIGNUP.SIGN_UP' | translate }}
+    </button>
+
+  </form>
+</mat-card-content>
+
+   <!-- Back Button -->
+   <mat-card-actions>
+    <button mat-button color="accent" (click)="goBack()">Back</button>
+  </mat-card-actions>
+</mat-card>

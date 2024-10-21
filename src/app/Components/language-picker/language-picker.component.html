@@ -1,0 +1,8 @@
+<mat-form-field appearance="fill">
+    <!-- <mat-label>{{ 'SELECT_LANGUAGE' | translate }}</mat-label> -->
+    <mat-select [(value)]="selectedLanguage" (selectionChange)="switchLanguage($event.value)">
+      <mat-option *ngFor="let language of languages" [value]="language.value">
+        {{ language.viewValue | translate }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
