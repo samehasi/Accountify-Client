@@ -16,10 +16,10 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
   const store = inject(Store);
 
   console.log(token?.toString())
-    if(token === null)
-    {
-        router.navigate(['/login']);
-    }
+    // if(token === null)
+    // {
+    //     router.navigate(['/login']);
+    // }
 
   // Clone the request to add the authorization header
   const authReq = req.clone({
